@@ -1,0 +1,104 @@
+.mmocVideoTranscript{
+	height: 320px !important;
+	overflow-y: auto;
+	border-style: none !important;
+}
+.btnadd{
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.btnSeek{
+	padding: 10px 5px;	
+}
+.header-v2{
+	background-color: #7757A8;
+	position: fixed;
+	top: 0;
+	height: 62px;
+	width: 100%;
+	max-width: 100%;
+	color: #fff;
+	padding: 0;
+	border: none;
+	z-index: 1000;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.header-row.row{
+	position: relative;
+	max-width: 960px;
+	height: 62px;
+	margin: auto;
+	display: block;
+}
+.header-nav {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header-nav .header-nav-item.plain.is-active{
+	background: rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+.header-nav .header-nav-item{
+	border-radius: 4px;
+	position: relative;
+	z-index: 100;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+li {
+	padding: 10px;
+	margin-top: 10px;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+#header a:hover {
+	text-decoration: none;
+}
+.is-active {
+	color: #000;
+	text-decoration: none;
+}
+.inputvideo{
+	background: #fff;
+	height: 40px;
+	border-bottom: 1px solid #d2d2d2;
+	width: 100%;
+	margin-top: -20px !important;
+
+}
+.inputvideo h3{
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+}
+.input-text{
+	height: 300px;
+	text-align: center;
+	margin-top: 40px;
+}
+.form-login{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 50px;
+}
